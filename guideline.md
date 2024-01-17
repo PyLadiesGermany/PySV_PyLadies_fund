@@ -109,7 +109,7 @@ Tickets will be labeled by chapter and year and the platform should allow PyLadi
 
 A general update on notable events and activities should be sent to PySV every six months. This helps PySV understand the needs and accomplishments of PyLadies. The report should be sent by the spokesperson with the support of the other approval group members.
 
-Details of all expenditures must be reported so that accounts can be properly reconciled. These are sent directly to the PySV with the germany@pyladies.com email in CC.
+Details of all expenditures must be reported so that accounts can be properly reconciled. These are sent directly to the PySV with the [pyladies@python-verband.org](mailto:pyladies@python-verband.org) email in CC.
 
 ## Current Approvals Group
 
