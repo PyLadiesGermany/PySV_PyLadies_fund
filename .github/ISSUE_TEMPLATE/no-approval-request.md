@@ -2,8 +2,8 @@
 name: Instant Approval Request
 about: Request for an item on our instant approval list (see below)
 title: Instant Approval Request
-labels: approval_request, instant_approval
-assignees: @sleepypioneer, @laysauchoa, @discombobulateme, @pga99, @terezaif
+labels: 'approval_request, instant_approval'
+assignees: '@sleepypioneer, @laysauchoa, @discombobulateme, @pga99, @terezaif'
 
 ---
 

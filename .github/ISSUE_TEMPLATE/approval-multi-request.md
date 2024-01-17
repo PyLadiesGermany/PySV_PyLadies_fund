@@ -2,8 +2,8 @@
 name: Approval Multi Request
 about: Multi request, requires approval
 title: Approval Multi Request
-labels: approval_request, approval_multi_request
-assignees: @sleepypioneer, @laysauchoa, @discombobulateme, @pga99, @terezaif
+labels: 'approval_request, approval_multi_request'
+assignees: '@sleepypioneer, @laysauchoa, @discombobulateme, @pga99, @terezaif'
 
 ---
 
