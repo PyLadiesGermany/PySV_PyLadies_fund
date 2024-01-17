@@ -3,7 +3,7 @@
 The annual €5000 grant program from the PySV for PyLadies aims to support the activities and growth of PyLadies chapters in Germany. It is essential to ensure that these funds are used transparently, therefore we have devised the following guidelines. The grant will be issued to PyLadies each year after the PyCon DE conference (circa June), once assigned the funds are available for disposal by the PyLadies using the following guidelines. Money not used within the year will stay on the PyLadies account and can continue to be used.
 
 **Allowable expenses:**
-- Community events: this includes room rentals, refreshments, and similar costs.
+- Community events: this includes room rentals, refreshments, devices used for events (for example microphone, camera, lightning), and similar costs.
 - Promotional materials: such as stickers, banners, T-shirts, and other marketing materials.
 - Software tools: Subscription-based tools or one-time software purchases that benefit the chapter (these may also be shared across chapters).
 - To pay/reimburse costs to speakers for PyLadies events
