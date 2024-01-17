@@ -1,9 +1,9 @@
 ---
 name: Approval Single Request
 about: Single request, requires approval
-title: '[Approval Single Request]'
-labels: approval_request, approval_single_request
-assignees: @sleepypioneer, @laysauchoa, @discombobulateme, @pga99, @terezaif
+title: Approval Single Request
+labels: 'approval_request, approval_single_request'
+assignees: '@sleepypioneer, @laysauchoa, @discombobulateme, @pga99, @terezaif'
 
 ---
 
