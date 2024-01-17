@@ -27,8 +27,8 @@ After opening the ISSUE a Slack message will be posted on the global PyLadies Sl
 ## Approvals
 *Two approvals are required for this request to be approved. Please add the label `approved` to this issue once there are two approvals.*
 
-- [] Approval 1: <name-of-approver>
-- [] Approval 2: <name-of-approver>
+- [ ] Approval 1: <name-of-approver>
+- [ ] Approval 2: <name-of-approver>
 
 ## Post Approval
 
