@@ -13,12 +13,13 @@ This type of request **requires approval**, this means once submitted you must w
 
 After opening the ISSUE a Slack message will be posted on the global PyLadies Slack in channel [#city-germany-pysv-fund](https://pyladies.slack.com/archives/C06B761RX6X).
 
-**Chapter Name:**
+### Request Details
+- **Chapter Name:**  <answer>
 - [ ] I have also added the chapter name as a label on the issue
-**Name of person submitting request:**
-**Slack Handle of the person submitting the request:**
-**Amount in EURs being requested:**
-**Reason for request *(what the money will be spent on - this will be used for reporting)*:**
+- **Name of person submitting request:**
+- **Slack Handle of the person submitting the request:**
+- **Amount in EURs being requested:**
+#### Reason for request *(what the money will be spent on - this will be used for reporting)*:
 
 
 

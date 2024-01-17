@@ -15,12 +15,14 @@ This type of request is for multiple items, please list all items and their purp
 
 After opening the ISSUE a Slack message will be posted on the global PyLadies Slack in channel [#city-germany-pysv-fund](https://pyladies.slack.com/archives/C06B761RX6X).
 
-**Chapter Name:**
+### Request Details
+- **Chapter Name:**  <answer>
 - [ ] I have also added the chapter name as a label on the issue
-**Name of person submitting request:**
-**Slack Handle of the person submitting the request:**
-**Amount in EURs being requested:**
-**Reason for request *(summary of what the money will be spent on - you can list items as you submit invoices below)*:**
+- **Name of person submitting request:**  <answer>
+- **Slack Handle of the person submitting the request:**  <answer>
+- **Amount in EURs being requested:**  <answer>
+#### Reason for request *(summary of what the money will be spent on - you can list items as you submit invoices below)*:
+
 
 
 

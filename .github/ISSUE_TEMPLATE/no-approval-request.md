@@ -13,12 +13,13 @@ This type of request does not require approval, which means you can go ahead and
 
 After opening the ISSUE a Slack message will be posted on the global PyLadies Slack in channel [#city-germany-pysv-fund](https://pyladies.slack.com/archives/C06B761RX6X).
 
-**Chapter Name:**
-- [ ] I have also added the chapter name as a label on the issue
-**Name of person submitting request:**
-**Slack Handle of the person submitting the request:**
-**Amount in EURs being requested:**
-**Item being requested *(should be selected from the list below)*:**
+### Request Details
+- **Chapter Name:**  <answer>
+- [ ] I have also added the chapter name as a label on the issue  
+- **Name of person submitting request:**  <answer>
+- **Slack Handle of the person submitting the request:**  <answer>
+- **Amount in EURs being requested:**  <answer>
+#### Item being requested *(should be selected from the list below)*  
 - [ ] Up to 200 EUR for stickers per chapter per calendar year *(Stickers for chapters might be ordered together (to reduce costs) and this should be organized between the chapters.)*
 - [ ] A roll-up banner (one-time purchase) for a chapter
 - [ ] Shared subscriptions - i.e. Restream/ Lastpass (these subscriptions should have been agreed upon by the chapters beforehand)
@@ -26,7 +27,7 @@ After opening the ISSUE a Slack message will be posted on the global PyLadies Sl
 *Add additional details - these will be used for reporting*
 
 
-**Invoice/Receipt submitted to the PySV:**
+#### Invoice/Receipt submitted to the PySV
 Email your invoice to: [invoice@python-verband.org](mailto:invoice@python-verband.org)
 - [ ] I have put pyladies@python-verband.org in CC (or sent a copy)
 - [ ] Add the label `invoice submitted` to this issue
