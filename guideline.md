@@ -11,7 +11,7 @@ The annual €5000 grant program from the PySV for PyLadies aims to support the 
 - Educational material for events or raffle prizes such as books, ebooks or vouchers for online courses 
 
 **Disallowed Expenditures:**
-- Regional Restrictions: Funds can only be spent on activities in the DE, CH, and AT regions as defined in the PySV Bylaws.
+- Regional Restrictions: Funds can only be spent on activities in the DE, CH, and AT regions as defined in the [PySV Bylaws](https://python-verband.org/documents/).
 - Personal expenses or any activity not related to PyLadies.
 - It should be avoided that the opportunities funded benefit repeatedly only a single individual or small group of the chapter members within a single year
 
@@ -20,12 +20,14 @@ The annual €5000 grant program from the PySV for PyLadies aims to support the 
 Chapters wishing to apply for funds should:
 - Open an issue in this repo, choosing the relevant ISSUE type and follow the outlined issue template, this will include a brief statement of the intended use of the funds, detailing the purpose and amount requested. You will also be prompted to add labels relevant to your request
 - If necessary wait for approval (see process below)
-- Submit an invoice directly to the PySV (invoice@python-verband.org) with the pyladies@python-verband.org in CC. Ensure that all expenditures are accompanied by a proper receipt. For major expenditures that include sales tax, the PySV's address (see appendix) must be on the receipt.   
+- Submit an invoice directly to the PySV (invoice@python-verband.org) with the pyladies@python-verband.org in CC.
+  - Ensure that all expenditures are accompanied by a proper receipt. 
+  - For major expenditures that include sales tax, the PySV's address (see appendix) must be on the receipt.   
   - If you are paying a speaker or service provider, an invoice is preferred. However, a signed paper receipt is also acceptable.
 - Reimbursement/ invoice payments will happen within 14 days
-- Move the ticket to reimbursed on our platform adding any additional context regarding the funding we can share in our report (i.e. number of attendees to an event/ one or two outcomes the funding helped you achieve)
+- Move the ticket to reimbursed on our project board adding any additional context regarding the funding we can share in our report (i.e. number of attendees to an event/ one or two outcomes the funding helped you achieve)
 
-At any time you can check the process of our request on our [project board](https://github.com/orgs/PyLadiesGermany/projects/2).
+At any time you can check the process of requests on our [project board](https://github.com/orgs/PyLadiesGermany/projects/2).
 
 ## Approval Process
 
@@ -38,17 +40,21 @@ Approvals will be given by the approval group following the approval guidelines 
 For some things we want to ensure chapters can get the quickest access possible, this means the requirement for pre-approval is removed. The chapter must still create a ticket on our platform with relevant information but can immediately send an invoice to the PySV (with the PyLadies email copied in) These items include:
 - Up to 200 EUR for stickers per chapter per year
 - A roll-up banner (one-time purchase) for a chapter
-- Shared subscriptions - i.e. streaming software or password managers (these subscriptions should have been agreed upon by the chapters beforehand)
+- Shared subscriptions i.e. streaming software or password managers (these subscriptions should have been agreed upon by the chapters beforehand, you can find a list of shared subscriptions [here](Docs/shared_tools.md))
 
 These quick approvals apply to all existing and future chapters who have had at least one event or are attending PyCon DE as a group. Stickers for chapters might be ordered together (to reduce costs) and this should be organised between the chapters.
 
-You can open a ticket on our platform and select the label `instant_approval` to indicate that no approval is required. Then send the invoice to the PySV with the PyLadies email copied in.
+You can open a ticket on the project board using the issue type [instant approval](https://github.com/PyLadiesGermany/PySV_PyLadies_fund/issues/new?assignees=sleepypioneer%2Claysauchoa%2Cdiscombobulateme%2Cpga99%2Cterezaif&labels=approval_request%2Cinstant_approval&projects=&template=no-approval-request.md&title=Instant+Approval+Request). Then send the invoice to the PySV with the PyLadies email copied in.
 
 ### Single requests requiring approval
 
 For most requests approval will be required. At least one member of the approval group who is not part of the requesting chapter should approve a request. If a member of the approval group is not sure about a request they may request that a second approval is required (but the maximum number of approvals required should be 2).
 
+You can open a ticket on the project board using the issue type [Approval single request](https://github.com/PyLadiesGermany/PySV_PyLadies_fund/issues/new?assignees=sleepypioneer%2Claysauchoa%2Cdiscombobulateme%2Cpga99%2Cterezaif&labels=approval_request%2Capproval_single_request&projects=&template=approval-single-request.md&title=Approval+Single+Request).
+
 Members of the approval group may ask questions regarding the funding (or point groups to existing resources that are shared by the chapters). Approvals should happen in a timely manner (see approval group description below). If a PyLady requesting funds feels the process (considering everyone involved is a volunteer) is taking too long they should raise this with the PyLadies Germany Spokesperson.
+
+At any time you can check the process of your request on our [project board](https://github.com/orgs/PyLadiesGermany/projects/2).
 
 We expect chapters with multiple groups within it to have transparency with one another and to help us achieve an equitable way of distributing funds.
 
@@ -56,12 +62,13 @@ We expect chapters with multiple groups within it to have transparency with one 
 
 Some chapters might prefer to request approval for a larger amount in one go and manage the details of how it is spent internally (specifics still need to be reported and individual invoices sent). This could be for example be requesting a proportion of the total grant for the year upfront or for a single initiative which will include multiple costs. Ideally, such initiatives may be special programs that are indicated as planned by the chapter or chapters and presented, whenever possible, at the beginning of the year in order to plan the annual budget. After approval, the chapter will be able to get reimbursements for up to this amount without the need for further approval.
 
-These chapters should already be established, with a track record of events they have run and (some) consistency in the organizing team (i.e. it should not be a whole new group who have recently taken over a chapter). It would be expected that this group would not receive approval for applications for further funds unless we have leftover budget (towards year end).
+These chapters should already be established, with a track record of events they have run (at least 5 events in the past 12 months) and (some) consistency in the organizing team (i.e. it should not be a whole new group who have recently taken over a chapter). It would be expected that this group would not receive approval for applications for further funds that year unless we have leftover budget (towards year end).
 
 The amount considered would be the total grant amount divided by the current number of active chapters + an additional slice for Germany as a whole. (i.e., if there are 4 active chapters and the grant is 5000 EUR a single chapter could request 1000EUR)
-Process (differs slightly from above):
-- Ticket created on the reporting platform for the total amount, including ideas of what it will cover (exact items should be listed afterward)
-- Approval for the total amount by at least 2 representatives outside of the requesting chapter
+
+**Process (differs slightly from above):**
+- Open a [Approval Multi Request](https://github.com/PyLadiesGermany/PySV_PyLadies_fund/issues/new?assignees=sleepypioneer%2Claysauchoa%2Cdiscombobulateme%2Cpga99%2Cterezaif&labels=approval_request%2Capproval_multi_request&projects=&template=approval-multi-request.md&title=Approval+Multi+Request) issue in this repository for the total amount, including ideas of what it will cover (exact items should be listed afterward)
+- Wait for approval for the total amount by at least 2 representatives outside of the requesting chapter
 - Individual invoices should be sent to the PySV with the PyLadies Germany email copied in
 - Reimbursement will happen within 14 days
 - Individual spends should be added to the ticket on the reporting platform marked as reimbursed with an update to the amount left
