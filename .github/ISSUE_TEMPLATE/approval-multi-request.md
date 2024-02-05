@@ -15,7 +15,7 @@ assignees:
 
 Thank you for opening a request for funds. Please fill in the information below. If this is your first request we recommend reading the documentation in this repository beforehand. ***Note that only existing chapters or new chapters who have held at least one event and are known to the PyLadies Germany group may submit requests.***
 
-This type of request **requires approval**, this means once submitted you must wait for approval before making any purchases. As soon as the request is approved you can go ahead and start submitting the receipts for reimbursement. Reimbursement can be expected in (5-7 days).
+This type of request **requires approval**, this means that once submitted you must wait for approval before making any purchases. As soon as the request is approved you can go ahead and start submitting the receipts for reimbursement. Reimbursement can be expected within 14 days.
 
 This type of request is for multiple items, please list all items and their purpose below. If you don't have the exact details when requesting, please add them as soon as you have them. Keep this ticket open until all items have been purchased and the receipts have been submitted.
 
