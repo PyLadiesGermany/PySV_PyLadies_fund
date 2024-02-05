@@ -15,7 +15,7 @@ assignees:
 
 Thank you for opening a request for funds. Please fill in the information below. If this is your first request we recommend reading the documentation in this repository beforehand. ***Note that only existing chapters or new chapters who have held at least one event and are known to the PyLadies Germany group may submit requests.***
 
-This type of request **requires approval**, this means once submitted you must wait for approval before making the purchase. As soon as the request is approved you can go ahead and submit the receipt for reimbursement. Reimbursement can be expected in (5-7 days).
+This type of request **requires approval**, this means that once submitted you must wait for approval before making the purchase. As soon as the request is approved you can go ahead and submit the receipt for reimbursement. Reimbursement can be expected within.
 
 After opening the ISSUE a Slack message will be posted on the global PyLadies Slack in channel [#city-germany-pysv-fund](https://pyladies.slack.com/archives/C06B761RX6X).
 
