@@ -2,7 +2,7 @@
 
 This repository is for the transparent tracking, and reporting of the PyLadies Python Software Verband fund. It also serves the purpose of documenting the process for PyLadies to request funding and how decisions are made. 
 
-*🏗️ Currently this repository is a work in progress and documents are likely to change or be added. If you feel that there is something missing feel free to open either an issue or a PR 💜*
+*🏗️ Currently this repository is a work in progress and documents are likely to change or be added. If you feel that something is missing feel free to open either an issue or a PR 💜*
 
 ## Guidelines
 
@@ -59,7 +59,7 @@ There is no limit to the amount that can be requested, however, the fund is limi
 
 ### How do I request funds?
 
-To request funds you need to open an issue in this repository. There are three templates that can be used:
+To request funds you need to open an issue in this repository. Three templates can be used:
 
 - [Approval Single Request](.github/ISSUE_TEMPLATE/approval_single_request.md)
 - [Approval Multi Request](.github/ISSUE_TEMPLATE/approval_multi_request.md)
@@ -75,7 +75,7 @@ The representatives will review the request and either approve or reject it. If 
 
 ### How do I get reimbursed?
 
-Once the request has been approved you can go ahead and make the purchase. Once the purchase has been made you can submit the receipt for reimbursement. Reimbursement can be expected in (5-7 days).
+Once the request has been approved you can go ahead and make the purchase. Once the purchase has been made you can submit the receipt for reimbursement. Reimbursement can be expected within 14 days.
 
 To submit the receipt you need to email it to [invoice@python-verband.org](mailto:invoice@python-verband.org) with pyladies@python-verband.org in CC.
 
