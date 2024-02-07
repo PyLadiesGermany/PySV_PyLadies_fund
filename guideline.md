@@ -5,7 +5,7 @@ The annual €5000 grant program from the PySV for PyLadies aims to support the 
 **Allowable expenses:**
 - Community events: this includes room rentals, refreshments, devices used for events (for example microphone, camera, lightning), and similar costs.
 - Promotional materials: such as stickers, banners, T-shirts, and other marketing materials.
-- Software tools: Subscription-based tools or one-time software purchases that benefit the chapter (these may also be shared across chapters).
+- Software tools: Subscription-based tools or one-time software purchases that benefit the chapter (these may also be shared across chapters - see [shared tools list](./Docs/shared_tools.md)).
 - To pay/reimburse costs to speakers for PyLadies events
 - Travel reimbursement for members to go to other events (note the regional restrictions)
 - Educational material for events or raffle prizes such as books, ebooks or vouchers for online courses 
@@ -37,12 +37,12 @@ Approvals will be given by the approval group following the approval guidelines 
 
 ### No approval required
 
-For some things we want to ensure chapters can get the quickest access possible, this means the requirement for pre-approval is removed. The chapter must still create a ticket on our platform with relevant information but can immediately send an invoice to the PySV (with the PyLadies email copied in) These items include:
+For some things we want to ensure chapters can get the quickest access possible, this means the requirement for pre-approval is removed for eligible requests. The chapter must still create a ticket on our platform with relevant information but can immediately send an invoice to the PySV (with the PyLadies email copied in) These items include:
 - Up to 200 EUR for stickers per chapter per year
 - A roll-up banner (one-time purchase) for a chapter
 - Shared subscriptions i.e. streaming software or password managers (these subscriptions should have been agreed upon by the chapters beforehand, you can find a list of shared subscriptions [here](Docs/shared_tools.md))
 
-These quick approvals apply to all existing and future chapters who have had at least one event or are attending PyCon DE as a group. Stickers for chapters might be ordered together (to reduce costs) and this should be organised between the chapters.
+These quick approvals apply to all existing and future chapters who have had at least one official event under the PyLadies brand or are attending PyCon DE as a group. Stickers for chapters might be ordered together (to reduce costs) and this should be organised between the chapters.
 
 You can open a ticket on the project board using the issue type [instant approval](https://github.com/PyLadiesGermany/PySV_PyLadies_fund/issues/new?assignees=sleepypioneer%2Claysauchoa%2Cdiscombobulateme%2Cpga99%2Cterezaif&labels=approval_request%2Cinstant_approval&projects=&template=no-approval-request.md&title=Instant+Approval+Request). Then send the invoice to the PySV with the PyLadies email copied in.
 
