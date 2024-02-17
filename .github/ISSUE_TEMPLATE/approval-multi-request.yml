@@ -1,9 +1,10 @@
 ---
 name: Approval Multi Request
-about: Multi request, requires approval
+description: Multi request, requires approval
 title: "[<TOTAL_AMOUNT> EUR]: Approval Multi Request"
 labels: ["approval_request", "approval_multi_request"]
-assignees: ''
+assignees:
+- sleepypioneer
 body:
   - type: markdown
     attributes:
