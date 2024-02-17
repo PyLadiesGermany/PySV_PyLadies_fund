@@ -26,6 +26,7 @@ body:
       label: Chapter Name
       description: "Please enter the name of your chapter"
       placeholder: "PyLadies Germany"
+    validations:
       required: true
   - type: checkboxes
     id: add_chapter_name_label
@@ -41,6 +42,7 @@ body:
       label: Name of person submitting request
       description: "Please enter your name"
       placeholder: "Jane Doe"
+    validations:
       required: true
   - type: input
     id: ammount_requested
@@ -48,6 +50,7 @@ body:
       label: Amount in EURs being requested
       description: "Please enter the amount in EURs being requested"
       placeholder: "100"
+    validations:
       required: true
   - type: textarea
     id: reason_for_request
@@ -55,6 +58,7 @@ body:
       label: Reason for request
       description: "What the money will be spent on - this will be used for reporting"
       placeholder: "This will be used to pay for the catering for our next event"
+    validations:
       required: true
   - type: textarea
     id: additional_info
@@ -62,6 +66,7 @@ body:
       label: Additional Information
       description: "Any additional information you would like to provide"
       placeholder: "We have already received a quote from the caterer"
+    validations:
       required: false
   - type: markdown
     attributes:
