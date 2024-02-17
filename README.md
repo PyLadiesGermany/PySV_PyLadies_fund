@@ -15,6 +15,8 @@ The guidelines for the fund can be found in the [Guidelines](./guideline.md) fil
 
 ## FAQ 
 
+The full outline of the fund can be found in our [Guideline document](./guideline.md), the FAQ summarises the guidelines for reference.
+
 ### Table of Contents
 
 - [PySV PyLadies Germany Fund](#pysv-pyladies-germany-fund)
