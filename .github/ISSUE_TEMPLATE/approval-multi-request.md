@@ -1,6 +1,6 @@
 ---
 name: Approval Multi Request
-description: Multi request, requires approval
+about: Multi request, requires approval
 title: "[<TOTAL_AMOUNT> EUR]: Approval Multi Request"
 labels: ["approval_request", "approval_multi_request"]
 assignees: 
@@ -34,7 +34,7 @@ body:
       label: Add chapter name as a label
       description: "Check to confirm you have added the chapter name as a label"
       options:
-        - label: "confrimed"
+        - label: "confirm"
           required: true
   - type: input
     id: requester_name
