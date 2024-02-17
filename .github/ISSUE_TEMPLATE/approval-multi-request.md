@@ -68,33 +68,33 @@ body:
       placeholder: "This was discussed in the recent organisers meeting"
     validations:
       required: false
-  - type: markdown
-    attributes:
-      value: |
-        ## Approvals
-        *Two approvals are required for this request to be approved. Please add the label `approved` to this issue once there are two approvals.*
 
-        - [ ] Approval 1: <name-of-approver>
-        - [ ] Approval 2: <name-of-approver>
+---
 
-        ## Post Approval
+## Approvals
+*Two approvals are required for this request to be approved. Please add the label `approved` to this issue once there are two approvals.*
 
-        Email your invoices to: [invoice@python-verband.org](mailto:invoice@python-verband.org) with pyladies@python-verband.org in CC (you can find a template email in this [repo](./Docs/email_templates.md)).
+- [ ] Approval 1: <name-of-approver>
+- [ ] Approval 2: <name-of-approver>
 
-        ### Items purchased
-        *List items purchased with the money & their purpose - these will be used for reporting*
+## Post Approval
 
-        | Item                     | Purpose                                   | Amount  (EUR)     |
-        | ------------------------ | ----------------------------------------- | ----------------- |
-        |                          |                                           |                   |
-        |                          |                                           |                   |
-        |                          |                                           |                   |
+Email your invoices to: [invoice@python-verband.org](mailto:invoice@python-verband.org) with pyladies@python-verband.org in CC (you can find a template email in this [repo](./Docs/email_templates.md)).
+
+### Items purchased
+*List items purchased with the money & their purpose - these will be used for reporting*
+
+| Item                     | Purpose                                   | Amount  (EUR)     |
+| ------------------------ | ----------------------------------------- | ----------------- |
+|                          |                                           |                   |
+|                          |                                           |                   |
+|                          |                                           |                   |
 
 
-        ## After full amount spent
+## After full amount spent
 
-        - [ ] Add the label `invoice_submitted` and `request_complete`` to this issue
-        - [ ] Once all invoices have been paid, add the label `invoice_paid` to this issue & move the ticket to completed requests
+- [ ] Add the label `invoice_submitted` and `request_complete`` to this issue
+- [ ] Once all invoices have been paid, add the label `invoice_paid` to this issue & move the ticket to completed requests
 
-        **Additional Information:**
+**Additional Information:**
 
