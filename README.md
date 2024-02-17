@@ -46,7 +46,7 @@ Only existing chapters or new chapters who have held at least one event and are 
 
 ### What can funds be used for?
 
-The fund can be used for anything that will help the chapter grow and support the community. This includes but is not limited to:
+The fund can be used for almost anything that will help the chapter grow and support the community. This includes but is not limited to:
 
 - Food and drinks for events
 - Venue hire
@@ -54,6 +54,8 @@ The fund can be used for anything that will help the chapter grow and support th
 - Swag
 - Marketing materials
 - Shared subscriptions (i.e. Restream/ Lastpass)
+
+There are some things that the fund cannot be used for. Please see the [guidelines](./guideline.md) for more information.
 
 ### How much can be requested?
 
@@ -95,4 +97,5 @@ Everyone interacting in the PySV PyLadies Germany Fund project's code base, issu
 
 ## License
 
-This repository is licensed under the [MIT License](LICENSE).
+This repository is licensed under the [Creative Commons Attribution-ShareAlike](LICENSE).
+
