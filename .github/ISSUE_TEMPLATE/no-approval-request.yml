@@ -1,24 +1,19 @@
 ---
-name: "[<TOTAL_AMOUNT> EUR]: Approval Single Request"
-description: Single request, requires approval
-title: "Approval Single Request"
-labels: ["approval_request", "approval_single_request"]
+name: "[<TOTAL_AMOUNT> EUR]: Instant Approval Request"
+description: Request for an item on our instant approval list (see below)
+title: "Instant Approval Request"
+labels: ["approval_request", "instant_approval"]
 assignees: 
 - sleepypioneer
-- laysauchoa
-- discombobulateme
-- pga99
-- terezaif
 body:
   - type: markdown
     attributes:
       value: |
         Thank you for opening a request for funds. Please fill in the information below. If this is your first request we recommend reading the documentation in this repository beforehand. ***Note that only existing chapters or new chapters who have held at least one event and are known to the PyLadies Germany group may submit requests.***
 
-        This type of request **requires approval**, this means that once submitted you must wait for approval before making the purchase. As soon as the request is approved you can go ahead and submit the receipt for reimbursement. Reimbursement can be expected within.
+        This type of request does not require approval (but is **restricted to certain items**, if you are unsure first check the guidelines and ask in Slack), which means you can go ahead and submit the receipt for reimbursement. Reimbursement can be expected in 14 days. 
 
         After opening the ISSUE a Slack message will be posted on the global PyLadies Slack in channel [#city-germany-pysv-fund](https://pyladies.slack.com/archives/C06B761RX6X).
-
   - type: input
     id: chapter_name
     attributes:
@@ -51,12 +46,24 @@ body:
       placeholder: "100"
     validations:
       required: true
-  - type: textarea
-    id: reason_for_request
+  - type: checkboxes
+    id: item_requested
     attributes:
-      label: Reason for request
-      description: "What the money will be spent on - this will be used for reporting"
-      placeholder: "This will be used to pay for the catering for our next event"
+      label: Item being requested
+      description: "Please select the item being requested"
+      options:
+        - label: "Up to 200 EUR for stickers per chapter per calendar year"
+          required: true
+        - label: "A roll-up banner (one-time purchase) for a chapter"
+          required: true
+        - label: "Shared subscriptions - i.e. Restream/ Lastpass (these subscriptions should have been agreed upon by the chapters beforehand)"
+          required: true
+  - type: textarea
+    id: item_details
+    attributes:
+      label: Item details
+      description: "Add additional details - these will be used for reporting"
+      placeholder: "We will use the stickers to promote our chapter at events"
     validations:
       required: true
   - type: textarea
@@ -64,18 +71,12 @@ body:
     attributes:
       label: Additional Information
       description: "Any additional information you would like to provide"
-      placeholder: "We have already received a quote from the caterer"
+      placeholder: "We are making a group order with another PyLadies Chapter"
     validations:
       required: false
   - type: markdown
     attributes:
       value: |
-        ## Approvals
-        *Two approvals are required for this request to be approved. Please add the label `approved` to this issue once there are two approvals.*
-
-        - [ ] Approval 1: <name-of-approver>
-        - [ ] Approval 2: <name-of-approver>
-
         ## Post Approval
         **Invoice/Receipt submitted to the PySV:**
         - [ ] Email your invoice to: [invoice@python-verband.org](mailto:invoice@python-verband.org) with pyladies@python-verband.org in CC (you can find a template email in this [repo](./Docs/email_templates.md)).
