@@ -139,7 +139,7 @@ Approval Platform: GitHub Project (this is public and should contain no personal
 **Spokesperson:** [Jessica Greene](https://github.com/sleepypioneer/) [Berlin]
 XXXX XXXX [Berlin]
 XXXX XXXX [Hamburg]
-XXXX XXXX [Munich]
+[Laysa Uchoa](https://github.com/laysauchoa/) [Munich]
 XXXX XXXX [SudWest]
 
 ## Appendix
