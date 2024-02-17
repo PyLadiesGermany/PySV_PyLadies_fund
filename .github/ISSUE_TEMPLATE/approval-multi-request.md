@@ -3,12 +3,7 @@ name: Approval Multi Request
 about: Multi request, requires approval
 title: "[<TOTAL_AMOUNT> EUR]: Approval Multi Request"
 labels: ["approval_request", "approval_multi_request"]
-assignees: 
-- sleepypioneer
-- laysauchoa
-- discombobulateme
-- pga99
-- terezaif
+assignees: ''
 body:
   - type: markdown
     attributes:
@@ -45,6 +40,14 @@ body:
     validations:
       required: true
   - type: input
+    id: date_of_event
+    attributes:
+      label: Date of event
+      description: "Please enter the date of the event"
+      placeholder: "2021-12-31"
+    validations:
+      required: false
+  - type: input
     id: ammount_requested
     attributes:
       label: Amount in EURs being requested
@@ -68,33 +71,36 @@ body:
       placeholder: "This was discussed in the recent organisers meeting"
     validations:
       required: false
-
----
-
-## Approvals
-*Two approvals are required for this request to be approved. Please add the label `approved` to this issue once there are two approvals.*
-
-- [ ] Approval 1: <name-of-approver>
-- [ ] Approval 2: <name-of-approver>
-
-## Post Approval
-
-Email your invoices to: [invoice@python-verband.org](mailto:invoice@python-verband.org) with pyladies@python-verband.org in CC (you can find a template email in this [repo](./Docs/email_templates.md)).
-
-### Items purchased
-*List items purchased with the money & their purpose - these will be used for reporting*
-
-| Item                     | Purpose                                   | Amount  (EUR)     |
-| ------------------------ | ----------------------------------------- | ----------------- |
-|                          |                                           |                   |
-|                          |                                           |                   |
-|                          |                                           |                   |
-
-
-## After full amount spent
-
-- [ ] Add the label `invoice_submitted` and `request_complete`` to this issue
-- [ ] Once all invoices have been paid, add the label `invoice_paid` to this issue & move the ticket to completed requests
-
-**Additional Information:**
+  - type: checkboxes
+    id: add_requester_name_label
+    attributes:
+      label: Approvals
+      description: "Check to confirm you have added the requester name as a label"
+      options:
+        - label: "confirm"
+          required: false
+  - type: textarea
+    id: items_purchased
+    attributes:
+      label: Items purchased
+      description: "List items purchased with the money & their purpose - these will be used for reporting"
+      value: |
+        Email your invoices to: [invoice@python-verband.org](mailto:invoice@python-verband.org) with pyladies@python-verband.org in CC (you can find a template email in this [repo](./Docs/email_templates.md)).
+        | Item                     | Purpose                                   | Amount  (EUR)     |
+        | ------------------------ | ----------------------------------------- | ----------------- |
+        |                          |                                           |                   |
+        |                          |                                           |                   |
+        |                          |                                           |                   |
+    validations:
+      required: false
+  - type: checkboxes
+    id: after_full_amount_spent
+    attributes:
+      label: After full amount spent
+      description: "Check to confirm you have added the items purchased as a label"
+      options:
+        - label: "dd the label `invoice_submitted` and `request_complete`` to this issue"
+          required: false
+        - label: "Once all invoices have been paid, add the label `invoice_paid` to this issue & move the ticket to completed requests"
+          required: false
 
