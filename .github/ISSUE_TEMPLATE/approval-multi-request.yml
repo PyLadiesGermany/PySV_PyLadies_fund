@@ -5,6 +5,10 @@ title: "[<TOTAL_AMOUNT> EUR]: Approval Multi Request"
 labels: ["approval_request", "approval_multi_request"]
 assignees:
 - sleepypioneer
+- laysauchoa
+- discombobulateme
+- pga99
+- terezaif
 body:
   - type: markdown
     attributes:
@@ -27,8 +31,8 @@ body:
   - type: checkboxes
     id: add_chapter_name_label
     attributes:
-      label: Add chapter name as a label
-      description: "Check to confirm you have added the chapter name as a label"
+      label: Added chapter name as a label and requested amount in title
+      description: "Check to confirm you have added the chapter name as a label and the requested amount in the title"
       options:
         - label: "confirm"
           required: true
@@ -40,14 +44,6 @@ body:
       placeholder: "Jane Doe"
     validations:
       required: true
-  - type: input
-    id: date_of_event
-    attributes:
-      label: Date of event
-      description: "Please enter the date of the event"
-      placeholder: "2021-12-31"
-    validations:
-      required: false
   - type: input
     id: ammount_requested
     attributes:
@@ -64,27 +60,21 @@ body:
       placeholder: "This will be used to pay for the catering for our next event"
     validations:
       required: true
-  - type: textarea
-    id: additional_info
-    attributes:
-      label: Additional Information
-      description: "Any additional information you would like to provide"
-      placeholder: "This was discussed in the recent organisers meeting"
-    validations:
-      required: false
   - type: checkboxes
     id: add_requester_name_label
     attributes:
       label: Approvals
-      description: "Check to confirm you have added the requester name as a label"
+      description: "DO NOT ALTER - This can be updated after the issue has been opened"
       options:
-        - label: "confirm"
+        - label: "Approval 1: <name-of-approver>"
+          required: false
+        - label: "Approval 2: <name-of-approver>"
           required: false
   - type: textarea
     id: items_purchased
     attributes:
       label: Items purchased
-      description: "List items purchased with the money & their purpose - these will be used for reporting"
+      description: "DO NOT ALTER - This can be updated after the issue has been opened"
       value: |
         Email your invoices to: [invoice@python-verband.org](mailto:invoice@python-verband.org) with pyladies@python-verband.org in CC (you can find a template email in this [repo](./Docs/email_templates.md)).
         | Item                     | Purpose                                   | Amount  (EUR)     |
@@ -98,10 +88,17 @@ body:
     id: after_full_amount_spent
     attributes:
       label: After full amount spent
-      description: "Check to confirm you have added the items purchased as a label"
+      description: "DO NOT ALTER - This can be updated after the issue has been opened"
       options:
-        - label: "dd the label `invoice_submitted` and `request_complete`` to this issue"
+        - label: "Add the label `invoice_submitted` and `request_complete`` to this issue"
           required: false
         - label: "Once all invoices have been paid, add the label `invoice_paid` to this issue & move the ticket to completed requests"
           required: false
-
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: Additional Information
+      description: "Any additional information you would like to provide"
+      placeholder: "This was discussed in the recent organisers meeting"
+    validations:
+      required: false

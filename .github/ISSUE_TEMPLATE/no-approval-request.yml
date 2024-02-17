@@ -25,10 +25,10 @@ body:
   - type: checkboxes
     id: add_chapter_name_label
     attributes:
-      label: Add chapter name as a label
-      description: "Check to confirm you have added the chapter name as a label"
+      label: Added chapter name as a label and requested amount in title
+      description: "Check to confirm you have added the chapter name as a label and the requested amount in the title"
       options:
-        - label: "confrimed"
+        - label: "confirm"
           required: true
   - type: input
     id: requester_name
@@ -66,22 +66,23 @@ body:
       placeholder: "We will use the stickers to promote our chapter at events"
     validations:
       required: true
+  - type: checkboxes
+    id: post_approval_actions
+    attributes:
+      label: Post Approval Actions
+      description: "DO NOT ALTER - This can be updated after the issue has been opened"
+      options:
+        - label: "Email your invoice to: [invoice@python-verband.org](mailto:invoice@python-verband.org) with pyladies@python-verband.org in CC (you can find a template email in this [repo](./Docs/email_templates.md))."
+          required: false
+        - label: "Add the label `invoice submitted` to this issue"
+          required: false
+        - label: "Once the invoice has been paid, add the label `invoice_paid` to this issue & move issue to completed requests"
+          required: false
   - type: textarea
     id: additional_info
     attributes:
       label: Additional Information
       description: "Any additional information you would like to provide"
-      placeholder: "We are making a group order with another PyLadies Chapter"
+      placeholder: "This was discussed in the recent organisers meeting"
     validations:
       required: false
-  - type: markdown
-    attributes:
-      value: |
-        ## Post Approval
-        **Invoice/Receipt submitted to the PySV:**
-        - [ ] Email your invoice to: [invoice@python-verband.org](mailto:invoice@python-verband.org) with pyladies@python-verband.org in CC (you can find a template email in this [repo](./Docs/email_templates.md)).
-        - [ ] Add the label `invoice submitted` to this issue
-        - [ ] Once the invoice has been paid, add the label `invoice_paid` to this issue & move issue to completed requests
-
-        **Additional Information:**
-
