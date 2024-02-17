@@ -1,7 +1,7 @@
 ---
-name: "[<TOTAL_AMOUNT> EUR]: Instant Approval Request"
+name: Instant Approval Request
 description: Request for an item on our instant approval list (see below)
-title: "Instant Approval Request"
+title: "[<TOTAL_AMOUNT> EUR]: Instant Approval Request"
 labels: ["approval_request", "instant_approval"]
 assignees: 
 - sleepypioneer

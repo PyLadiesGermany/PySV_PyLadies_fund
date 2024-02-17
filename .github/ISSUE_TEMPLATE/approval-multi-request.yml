@@ -1,7 +1,7 @@
 ---
-name: "[<TOTAL_AMOUNT> EUR]: Approval Multi Request"
+name: Approval Multi Request
 description: Multi request, requires approval
-title: "Approval Multi Request"
+title: "[<TOTAL_AMOUNT> EUR]: Approval Multi Request"
 labels: ["approval_request", "approval_multi_request"]
 assignees: 
 - sleepypioneer

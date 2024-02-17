@@ -1,7 +1,7 @@
 ---
-name: "[<TOTAL_AMOUNT> EUR]: Approval Single Request"
+name: Approval Single Request
 description: Single request, requires approval
-title: "Approval Single Request"
+title: "[<TOTAL_AMOUNT> EUR]: Approval Single Request"
 labels: ["approval_request", "approval_single_request"]
 assignees: 
 - sleepypioneer
