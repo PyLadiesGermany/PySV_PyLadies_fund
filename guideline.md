@@ -137,10 +137,10 @@ Email: germany@pyladies.com (this is a Google group)
 Approval Platform: GitHub Project (this is public and should contain no personal information)
 
 **Spokesperson:** [Jessica Greene](https://github.com/sleepypioneer/) [Berlin]
-XXXX XXXX [Berlin]
-XXXX XXXX [Hamburg]
+[Paloma Oliveira](https://github.com/discombobulateme) [Berlin]
+[Tereza Iofciu](https://github.com/terezaif) [Hamburg]
 [Laysa Uchoa](https://github.com/laysauchoa/) [Munich]
-XXXX XXXX [SudWest]
+[Paula González Avalos](https://github.com/pga99) [SudWest]
 
 ## Appendix
 
