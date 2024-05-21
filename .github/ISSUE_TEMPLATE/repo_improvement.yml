@@ -1,0 +1,30 @@
+---
+name: Repository/Process Improvement
+description: Request for an improvement to this repositories' processes or documentation
+title: "[Repo Improvement]"
+labels: ["enhancement"]
+assignees: 
+- sleepypioneer
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for opening a request for an improvement. Please fill in the information below. If this is your first request we recommend reading the documentation in this repository beforehand.
+
+  - type: input
+    id: improvement_title
+    attributes:
+      label: Title of the improvement
+      description: "Title of the improvement/ short 1 sentence decription"
+      placeholder: "Update broken link for XXX"
+    validations:
+      required: true
+
+  - type: input
+    id: improvement_description
+    attributes:
+      label: Description of the improvement
+      description: "longer decription of issue and (optionally) proposed solution"
+      placeholder: "Link for XXX needs to be updated to XXXX as it is currently broken"
+    validations:
+      required: true
