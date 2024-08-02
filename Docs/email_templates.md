@@ -14,6 +14,8 @@ I would like to request reimbursement for the following request: <link-to-github
 
 I have attached the receipt/s to this email.
 
+Please reimburse to the following IBAN: <iban> 
+
 Kind regards,
 
 ```
