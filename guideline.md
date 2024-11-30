@@ -145,12 +145,11 @@ Approval Platform: GitHub Project (this is public and should contain no personal
 ## Appendix
 
 **PySV Address:**
-Python Software Verband e.V.
-Leipziger Straße 70 
-Halle (Saale)
-Deutschland
-06108
-Telefon +49 621 43 74 10 22
+Python Software Verband e.V.   
+p. Adr. Pioneers Hub gGmbH  
+Friedrich-Ebert-Anlage 27  
+69117 Heidelberg  
+Germany
 
 pysv.org
 
