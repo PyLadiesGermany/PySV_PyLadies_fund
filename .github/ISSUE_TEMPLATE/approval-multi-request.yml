@@ -76,7 +76,7 @@ body:
       label: Items purchased
       description: "DO NOT ALTER - This can be updated after the issue has been opened"
       value: |
-        Email your invoices to: [invoice@python-verband.org](mailto:invoice@python-verband.org) with pyladies@python-verband.org in CC (you can find a template email in this [repo](./Docs/email_templates.md)).
+        Email your invoices to: [invoice@pysv.org](mailto:invoice@pysv.org) with pyladies@pysv.org in CC (you can find a template email in this [repo](./Docs/email_templates.md)).
         | Item                     | Purpose                                   | Amount  (EUR)     |
         | ------------------------ | ----------------------------------------- | ----------------- |
         |                          |                                           |                   |
