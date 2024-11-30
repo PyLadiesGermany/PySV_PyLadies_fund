@@ -4,8 +4,8 @@
 
 ```plaintext
 
-TO: invoice@python-verband.org
-CC: pyladies@python-verband.org
+TO: invoice@pysv.org
+CC: pyladies@pysv.org
 Subject: Reimbursement Request PyLadies Fund
 
 Dear PySV,

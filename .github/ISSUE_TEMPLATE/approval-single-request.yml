@@ -83,7 +83,7 @@ body:
       label: Post Approval Actions
       description: "DO NOT ALTER - This can be updated after the issue has been opened"
       options:
-        - label: "Email your invoice to: [invoice@python-verband.org](mailto:invoice@python-verband.org) with pyladies@python-verband.org in CC (you can find a template email in this [repo](/PyLadiesGermany/PySV_PyLadies_fund/blob/main/Docs/email_templates.md))."
+        - label: "Email your invoice to: [invoice@pysv.org](mailto:invoice@pysv.org) with pyladies@pysv.org in CC (you can find a template email in this [repo](/PyLadiesGermany/PySV_PyLadies_fund/blob/main/Docs/email_templates.md))."
           required: false
         - label: "Add the label `invoice submitted` to this issue"
           required: false
