@@ -81,7 +81,7 @@ The representatives will review the request and either approve or reject it. If 
 
 Once the request has been approved you can go ahead and make the purchase. Once the purchase has been made you can submit the receipt for reimbursement. Reimbursement can be expected within 14 days.
 
-To submit the receipt you need to email it to [invoice@python-verband.org](mailto:invoice@python-verband.org) with pyladies@python-verband.org in CC.
+To submit the receipt you need to email it to Email your invoices to: [invoice@pysv.org](mailto:invoice@pysv.org) with pyladies@pysv.org in CC (you can find a template email in this [repo](./Docs/email_templates.md)).
 
 ### How do I report on the funds?
 
