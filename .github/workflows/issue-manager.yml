@@ -3,9 +3,6 @@ name: Issue Manager
 on:
   schedule:
     - cron: "0 0 * * *"
-  issue_comment:
-    types:
-      - created
   issues:
     types:
       - labeled
@@ -24,8 +21,8 @@ jobs:
           config: >
             {
               "invoice_paid": {
-                "delay": "P3D",
-                "message": "Invoice has been marked as paid. Closing this issue now as there has been no further activity.",
+                "delay": "P1D",
+                "message": "Invoice has been marked as paid. Closing this issue now. Feel free to re-open if you need further assistance.",
                 "remove_label_on_comment": false
               }
             }
