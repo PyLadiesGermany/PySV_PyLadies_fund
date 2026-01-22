@@ -12,7 +12,7 @@ Dear PySV,
 
 I would like to request reimbursement for the following request: <link-to-github-issue> for the amount of <amount>.
 
-I have attached the receipt/s to this email.
+I have attached all receipts as one combined PDF to this email.
 
 Please reimburse to the following IBAN: <iban> 
 

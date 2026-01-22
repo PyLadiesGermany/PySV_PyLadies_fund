@@ -23,6 +23,7 @@ Chapters wishing to apply for funds should:
 - If necessary wait for approval (see process below)
 - Submit an invoice directly to the PySV (invoice@python-verband.org) with the PyLadies PySV email (pyladies@python-verband.org) copied in - see our [emails template](./Docs/email_templates.md) for what to include.
   - Ensure that all expenditures are accompanied by a full receipt (that lists the items paid for). 
+  - All receipts for each refund should be combined into one PDF file.
   - For major expenditures that include sales tax, the PySV's address (see appendix) must be on the receipt.   
   - If you are paying a speaker or service provider, an invoice is preferred. However, a signed paper receipt is also acceptable.
 - Reimbursement/ invoice payments will happen within 14 days
