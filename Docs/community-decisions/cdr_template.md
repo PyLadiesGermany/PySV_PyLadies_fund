@@ -1,7 +1,7 @@
-# ADR-XXXX: [Short title of the decision]
+# CDR-XXXX: [Short title of the decision]
 
 **Date:** YYYY-MM-DD  
-**Status:** [Proposed | Accepted | Rejected | Deprecated | Superseded by ADR-XXXX]
+**Status:** [Proposed | Accepted | Rejected | Deprecated | Superseded by CDR-XXXX]
 
 ---
 
@@ -22,4 +22,4 @@
 
 ---
 
-*This decision record follows the [ADR](https://adr.github.io/) format.*
+*CDR stands for Community Decision Record — inspired by the [ADR](https://adr.github.io/) format.*
