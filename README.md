@@ -11,6 +11,7 @@ The guidelines for the fund can be found in the [Guidelines](./guideline.md) fil
 ## Other Documentation
 
 - [Shared Tools](./Docs/shared_tools.md)
+- [Decision Records](./Docs/decisions/) – community and organisation decisions documented using the [ADR](https://adr.github.io/) format. Use the [ADR template](./Docs/decisions/adr_template.md) when adding a new record.
 
 
 ## FAQ 
