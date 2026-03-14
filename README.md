@@ -11,7 +11,7 @@ The guidelines for the fund can be found in the [Guidelines](./guideline.md) fil
 ## Other Documentation
 
 - [Shared Tools](./Docs/shared_tools.md)
-- [Community Decision Records](./Docs/community-decisions/) – community and organisation decisions documented as CDRs (Community Decision Records). Use the [CDR template](./Docs/community-decisions/cdr_template.md) when adding a new record.
+- [Community Decision Records](./community-decisions/) – community and organisation decisions documented as CDRs (Community Decision Records). Use the [CDR template](./community-decisions/cdr_template.md) when adding a new record.
 
 
 ## FAQ 
