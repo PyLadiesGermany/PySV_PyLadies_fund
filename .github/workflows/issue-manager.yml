@@ -1,0 +1,28 @@
+name: Issue Manager
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  issues:
+    types:
+      - labeled
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  issue-manager:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: tiangolo/issue-manager@0.6.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          config: >
+            {
+              "invoice_paid": {
+                "delay": "P1D",
+                "message": "Invoice has been marked as paid. Closing this issue now. Feel free to re-open if you need further assistance.",
+                "remove_label_on_comment": false
+              }
+            }
