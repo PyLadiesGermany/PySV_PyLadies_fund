@@ -1,0 +1,52 @@
+name: Annual Budget Report
+
+on:
+  # Run automatically on 1 January every year at 09:00 UTC
+  schedule:
+    - cron: "0 9 1 1 *"
+  # Allow manual runs with a custom year
+  workflow_dispatch:
+    inputs:
+      year:
+        description: "Year to report on (defaults to last calendar year)"
+        required: false
+        type: string
+
+permissions:
+  issues: read
+  contents: write
+
+jobs:
+  generate-report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Determine year
+        id: year
+        run: |
+          if [ -n "${{ inputs.year }}" ]; then
+            echo "year=${{ inputs.year }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "year=$(date -d 'last year' '+%Y')" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Generate annual report
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/annual_report.py \
+            --year ${{ steps.year.outputs.year }} \
+            --repo "${{ github.repository }}" \
+            | tee Docs/annual_report_${{ steps.year.outputs.year }}.md
+
+      - name: Commit report
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: add annual budget report for ${{ steps.year.outputs.year }}"
+          file_pattern: "Docs/annual_report_*.md"
