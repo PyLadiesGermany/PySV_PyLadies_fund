@@ -136,11 +136,15 @@ def is_donation(title: str) -> bool:
     (either at the beginning or after an opening bracket).
     """
     # Match patterns where '+' appears before the EUR amount:
-    # - \[?\s*       : optional opening bracket followed by optional whitespace
-    # - \+\s*        : plus sign followed by optional whitespace
-    # - [\d,\.]+     : the numeric amount (with possible separators)
-    # - \s*EUR       : whitespace and EUR
-    pattern = r"\[?\s*\+\s*[\d,\.]+\s*EUR"
+    # - \[?          : optional opening bracket
+    # - \s*          : optional whitespace
+    # - \+           : plus sign (indicates donation)
+    # - \s*          : optional whitespace
+    # - [\d,.]+      : the numeric amount (digits, commas, periods)
+    # - \s*          : optional whitespace
+    # - EUR          : EUR currency marker
+    # - \]?          : optional closing bracket
+    pattern = r"\[?\s*\+\s*[\d,.]+\s*EUR\]?"
     return bool(re.search(pattern, title, re.IGNORECASE))
 
 
