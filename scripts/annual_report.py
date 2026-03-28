@@ -122,6 +122,21 @@ def extract_eur_amount(title: str) -> float | None:
         return None
 
 
+def is_donation(title: str) -> bool:
+    """
+    Return True if the issue title indicates a donation (has a + sign before the amount).
+    
+    Examples of donation formats:
+        [+100 EUR]
+        [+ 100 EUR]
+        +100 EUR
+        + 100 EUR
+    """
+    # Check if the title contains a '+' sign before the amount
+    pattern = r"\[?\s*\+\s*[\d,\.]+\s*EUR"
+    return bool(re.search(pattern, title, re.IGNORECASE))
+
+
 def is_budget_request(issue: dict) -> bool:
     """Return True if the issue is a fund approval request (not a donation or meta issue)."""
     labels = [
@@ -135,15 +150,21 @@ def generate_report(issues: list[dict], year: int) -> str:
     """Generate a human-readable report."""
     budget_issues = [i for i in issues if is_budget_request(i)]
 
-    total_budget = 0.0
-    parsed_issues = []
+    total_expenses = 0.0
+    total_donations = 0.0
+    expense_issues = []
+    donation_issues = []
     unparsed_issues = []
 
     for issue in budget_issues:
         amount = extract_eur_amount(issue["title"])
         if amount is not None:
-            total_budget += amount
-            parsed_issues.append((issue["number"], issue["title"], amount))
+            if is_donation(issue["title"]):
+                total_donations += amount
+                donation_issues.append((issue["number"], issue["title"], amount))
+            else:
+                total_expenses += amount
+                expense_issues.append((issue["number"], issue["title"], amount))
         else:
             unparsed_issues.append((issue["number"], issue["title"]))
 
@@ -154,19 +175,33 @@ def generate_report(issues: list[dict], year: int) -> str:
         f"",
         f"- **Total issues closed in {year}:** {len(issues)}",
         f"- **Approval requests closed in {year}:** {len(budget_issues)}",
-        f"- **Total budget used:** {total_budget:,.2f} EUR",
-        "",
-        "## Approval Requests",
+        f"- **Total budget used (expenses):** {total_expenses:,.2f} EUR",
+        f"- **Total donations received:** {total_donations:,.2f} EUR",
         "",
     ]
 
-    if parsed_issues:
+    # Expenses section
+    lines.append("## Expenses")
+    lines.append("")
+    if expense_issues:
         lines.append("| Issue | Title | Amount (EUR) |")
         lines.append("| ----- | ----- | ------------ |")
-        for number, title, amount in sorted(parsed_issues, key=lambda x: x[0]):
+        for number, title, amount in sorted(expense_issues, key=lambda x: x[0]):
             lines.append(f"| #{number} | {title} | {amount:,.2f} |")
     else:
-        lines.append("_No approval requests found._")
+        lines.append("_No expenses found._")
+
+    # Donations section
+    lines.append("")
+    lines.append("## Donations")
+    lines.append("")
+    if donation_issues:
+        lines.append("| Issue | Title | Amount (EUR) |")
+        lines.append("| ----- | ----- | ------------ |")
+        for number, title, amount in sorted(donation_issues, key=lambda x: x[0]):
+            lines.append(f"| #{number} | {title} | {amount:,.2f} |")
+    else:
+        lines.append("_No donations found._")
 
     if unparsed_issues:
         lines += [
