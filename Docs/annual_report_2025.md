@@ -4,9 +4,10 @@
 
 - **Total issues closed in 2025:** 21
 - **Approval requests closed in 2025:** 20
-- **Total budget used:** 3,822.51 EUR
+- **Total budget used (expenses):** 3,822.51 EUR
+- **Total donations received:** 0.00 EUR
 
-## Approval Requests
+## Expenses
 
 | Issue | Title | Amount (EUR) |
 | ----- | ----- | ------------ |
@@ -15,7 +16,7 @@
 | #35 | [104,87 EUR]: Approval Single Request | 104.87 |
 | #38 | [112.30 EUR]: Approval Single Request | 112.30 |
 | #39 | [388,86 EUR]: Approval Single Request | 388.86 |
-| #41 | [288 EUR]: Approval Single Request | 288.00 |
+| #41 | [288 EUR]: Approval Single Request  | 288.00 |
 | #43 | [350 EUR]: Approval Single Request | 350.00 |
 | #45 | [235 EUR]: Approval Single Request | 235.00 |
 | #47 | [61.48 EUR]: Approval Single Request | 61.48 |
@@ -30,3 +31,7 @@
 | #57 | [208.40 EUR]: Approval Single Request | 208.40 |
 | #58 | [110 EUR]: Instant Approval Request | 110.00 |
 | #62 | [105,46 EUR]: Approval Multi Request | 105.46 |
+
+## Donations
+
+_No donations found._
